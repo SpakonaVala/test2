@@ -1,0 +1,34 @@
+.tableContainer {
+  grid-area: t;
+  width: 100%;
+  overflow: hidden;
+  /* Скрываем содержимое, выходящее за границы */
+  border-radius: 10px;
+  /* Скруглённые углы */
+  box-shadow: 0 0 0 1px darkgray;
+  /* Граница для контейнера */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Убираем двойные границы */
+  background-color: white;
+}
+
+.tableHeader,
+.tableCell {
+  border: 1px solid darkgray;
+  padding: 8px;
+  text-align: left;
+}
+
+.tableHeader {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tableCell {
+  font-size: medium;
+}

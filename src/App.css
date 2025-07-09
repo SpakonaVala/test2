@@ -1,0 +1,21 @@
+.app-request {
+  display: grid;
+
+  grid-template-areas:
+  "h h"
+  "n p";
+  grid-auto-rows: 60px 1fr;
+    grid-template-columns: 2fr 15fr;
+  background-color: Seashell;
+}
+
+.app-request-content {
+  grid-area: p;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px 10px 0px 0px;
+  height: 100vh;
+  border: 2px solid #ccc;
+    
+}
+

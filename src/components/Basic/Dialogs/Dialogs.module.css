@@ -1,0 +1,28 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 15fr;
+    
+}
+
+
+.messagesUser {
+    padding: 10px;
+}
+
+
+.dialogs{
+        padding: 10px;
+}
+
+.dialogsUser {
+    padding: 10px;
+    transform: scale(1.05);
+}
+
+.dialogsSidebar.active {
+    color: blueviolet;
+}
+
+.messagesBlock {
+    padding: 16px;
+}

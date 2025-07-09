@@ -1,0 +1,10 @@
+.header {
+  grid-area: h;
+  padding: 10px;
+
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  text-shadow: 0px 0px 5px #eec0ec, 0px 0px 10px #e9c0ee, 0px 0px 10px #ddbfdc,
+    0px 0px 20px #ecd4f0;
+}
